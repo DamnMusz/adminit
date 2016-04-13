@@ -30,6 +30,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="web\img\sackcloth-1280540_1920.jpg" />
     <Content Include="web\plugins\jquery-ui-1.11.4.custom\images\ui-icons_444444_256x240.png" />
     <Content Include="web\plugins\jquery-ui-1.11.4.custom\images\ui-icons_555555_256x240.png" />
     <Content Include="web\plugins\jquery-ui-1.11.4.custom\images\ui-icons_777620_256x240.png" />
@@ -122,6 +123,8 @@
     <Content Include="web\sass\mdb\free\_waves.scss" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="web\js\ng-services\" />
+    <Folder Include="web\js\ng-controllers\" />
     <Folder Include="web\plugins\" />
     <Folder Include="web\plugins\jquery-ui-1.11.4.custom\" />
     <Folder Include="web\plugins\jquery-ui-1.11.4.custom\external\" />

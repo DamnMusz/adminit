@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Material Design for Bootstrap</title>
+    <title>AdminIT: Donde los proyectos mueren</title>
 
     <!-- Material Design Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -21,12 +21,56 @@
 
     <link href="css/sortable-cards.css" rel="stylesheet" />
 
+    <style>
+        body {
+            background: url('img/sackcloth-1280540_1920.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .navbar {
+            background-color: rgba(0,0,0,0.6);
+        }
+
+        .navbar .navbar-nav > li > a {
+            color: white;
+        }
+
+        .navbar .navbar-brand {
+            font-weight: bold;
+        }
+
+        .top-nav-collapse {
+            /*background-color: #3F729B !important;*/
+            background-color: rgba(0,0,0,0.9)  !important;
+        }
+        /* Small Devices, Tablets */
+
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                /*background-color: #3F729B !important;*/
+                background-color: rgba(0,0,0,0.9)  !important;
+            }
+        }
+
+        .page-header {
+            color: lightskyblue;
+        }
+
+        h1 small {
+            color: antiquewhite;
+        }
+
+        #pageContainer {
+            margin-top: 7em;
+        }
+    </style>
+
 </head>
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar z-depth-2 unique-color">
-        <div class="container ">
+    <nav class="navbar navbar-fixed-top z-depth-2" role="navigation">
+        <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -34,9 +78,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand waves-effect waves-light" href="#">MDBootstrap</a>
+                <a class="navbar-brand waves-effect waves-light" href="#">AdminIT</a>
             </div>
-
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
@@ -78,7 +121,7 @@
 
 
     <!-- Page Content -->
-    <div class="container rgba-grey-light">
+    <div class="container rgba-black-light" id="pageContainer">
         <div class="row">
             <div class="col-lg-12">
                 <div class="column">
@@ -125,10 +168,9 @@
         <!-- Page Header -->
         <div class="row">
             <div class="col-lg-12">
-                <h1><small>A partir de acá fruta.</small></h1>
                 <h1 class="page-header">
-                    Our products
-                    <small>made with love</small>
+                    Mis Tableros
+                    <small>proyectos que nunca ser&aacute;n</small>
                 </h1>
             </div>
         </div>

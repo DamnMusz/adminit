@@ -30,6 +30,6 @@ var server = app.listen(process.env.PORT || 3000, function () {
 })
 
 app.get('/', function (req, res) {
-    res.sendfile(__dirname + 'web/index.html');
+    res.sendfile(__dirname + '/web/index.html');
 });
 

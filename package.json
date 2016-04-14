@@ -1,0 +1,28 @@
+{
+  "name": "adminit",
+  "version": "1.0.0",
+  "description": "IT Projects Administrator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./AdminIT/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamnMusz/adminit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamnMusz/adminit/issues"
+  },
+  "homepage": "https://github.com/DamnMusz/adminit#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4"
+  },
+  "engines": {
+    "node": "4.1.1"
+  }
+}

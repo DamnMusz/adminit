@@ -65,20 +65,6 @@
     <Content Include="web\js\jquery.min.js" />
     <Content Include="web\js\mdb.js" />
     <Content Include="web\js\mdb.min.js" />
-    <Content Include="js\modules %28optional%29\buttons.js" />
-    <Content Include="js\modules %28optional%29\chart.js" />
-    <Content Include="js\modules %28optional%29\collapsible.js" />
-    <Content Include="js\modules %28optional%29\dropdown.js" />
-    <Content Include="js\modules %28optional%29\forms-basic.js" />
-    <Content Include="js\modules %28optional%29\global.js" />
-    <Content Include="js\modules %28optional%29\jquery-easing.js" />
-    <Content Include="js\modules %28optional%29\mdb.js" />
-    <Content Include="js\modules %28optional%29\mdb.min.js" />
-    <Content Include="js\modules %28optional%29\scrolling-nav.js" />
-    <Content Include="js\modules %28optional%29\velocity.js" />
-    <Content Include="js\modules %28optional%29\video-bg.js" />
-    <Content Include="js\modules %28optional%29\waves-effect.js" />
-    <Content Include="js\modules %28optional%29\wow.js" />
     <Content Include="web\plugins\jquery-ui-1.11.4.custom\external\jquery\jquery.js" />
     <Content Include="web\plugins\jquery-ui-1.11.4.custom\jquery-ui.js" />
     <Content Include="web\plugins\jquery-ui-1.11.4.custom\jquery-ui.min.js" />
@@ -142,7 +128,6 @@
     <Folder Include="web\js\modules %28optional%29\" />
     <Folder Include="web\js\ng-controllers\" />
     <Folder Include="web\js\ng-services\" />
-    <Folder Include="js\ng-controllers\" />
     <Folder Include="web\plugins\" />
     <Folder Include="web\plugins\jquery-ui-1.11.4.custom\" />
     <Folder Include="web\plugins\jquery-ui-1.11.4.custom\external\" />
@@ -153,8 +138,6 @@
     <Folder Include="web\font\roboto\" />
     <Folder Include="web\img\" />
     <Folder Include="web\img\overlays\" />
-    <Folder Include="js\" />
-    <Folder Include="js\modules %28optional%29\" />
     <Folder Include="web\" />
     <Folder Include="web\sass\" />
     <Folder Include="web\sass\mdb\" />

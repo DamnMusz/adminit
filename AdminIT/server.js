@@ -12,7 +12,9 @@ var cookieParser = require('cookie-parser')
 
 var app = express()
 
-app.use(express.static('web'));
+//app.use(express.static('web'));
+
+app.use(express.static(__dirname + '/web'));
 
 // parse application/x-www-form-urlencoded 
 app.use(bodyParser.urlencoded({ extended: false }))

@@ -35,3 +35,14 @@ app.get('/', function (req, res) {
     res.sendfile(__dirname + '/web/index.html');
 });
 
+app.get('/hello', function (req, res) {
+    res.send( "hello world!" );
+});
+
+app.get('/json', function (req, res) {
+    var respuesta = { "card": [1, 2, 3] }
+    res.json( respuesta );
+});
+
+
+

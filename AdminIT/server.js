@@ -63,18 +63,18 @@ var server = app.listen(process.env.PORT || 3000, function () {
     console.log('Example app listening at http://%s:%s', host, port)
 })
 
-app.get('/', function (req, res) {
+app.get('/', function (req, res, next) {
     res.sendfile(__dirname + '/web/index.html');
 });
 
 
 
-app.get('/cards', function (req, res) {
+app.get('/cards', function (req, res, next) {
     res.json( cards );
 });
 
 
-app.get('/cards/:cardId', function (req, res) {
+app.get('/cards/:cardId', function (req, res, next) {
     var cardId = req.params.cardId;
     var cardStored = null;
 
@@ -94,7 +94,7 @@ app.get('/cards/:cardId', function (req, res) {
 
 });
 
-app.post('/cards', function (req, res) {
+app.post('/cards', function (req, res, next) {
 
     var cardIdNew = 0;
     cards.forEach(function(card){
@@ -118,7 +118,7 @@ app.post('/cards', function (req, res) {
 
 });
 
-app.put('/cards/:cardId', function (req, res) {
+app.put('/cards/:cardId', function (req, res, next) {
 
     var cardId = req.params.cardId;
     var cardStored = null;
@@ -153,7 +153,7 @@ app.put('/cards/:cardId', function (req, res) {
 });
 
 
-app.delete('/cards/:cardId', function (req, res) {
+app.delete('/cards/:cardId', function (req, res, next) {
     var cardId = req.params.cardId;
     var cardStored = null;
 

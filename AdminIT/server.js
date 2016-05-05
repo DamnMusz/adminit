@@ -20,6 +20,7 @@ API endpoints
 var express = require('express')
 var bodyParser = require('body-parser')
 var cookieParser = require('cookie-parser')
+var cors = require('cors');
 
 var app = express()
 
@@ -39,6 +40,10 @@ var populateTestCards = function() {
     }
 }
 populateTestCards();
+
+// Enable Access-Control-Allow-Origin
+// (needed to link api. with www.)
+app.use(cors());
 
 app.use(express.static(__dirname + '/web'));
 

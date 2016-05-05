@@ -16,7 +16,7 @@ angular.module('adminitApp')
         ];
 
         $scope.echo = function() {
-            $http.get("http://urlecho.appspot.com/echo?status=200&Content-Type=text%2Fhtml&body=Hello%20world!").
+            $http.get("http://api.adminit.ml/cards").
             then(function(response){
                 $scope.echoMessage = response.data;
             });

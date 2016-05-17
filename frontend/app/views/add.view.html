@@ -1,0 +1,33 @@
+<div class="add-card">
+    <h1>Add Card</h1>
+
+    <form>
+        <p>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+              <input class="mdl-textfield__input" type="text" ng-model="owner">
+              <label class="mdl-textfield__label" for="sample3">Owner</label>
+            </div>
+        </p>
+
+        <p>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+              <input class="mdl-textfield__input" type="text" ng-model="title">
+              <label class="mdl-textfield__label" for="sample3">Title</label>
+            </div>
+        </p>
+
+        <p>
+            <div class="mdl-textfield mdl-js-textfield">
+              <textarea class="mdl-textfield__input" type="text" rows= "3" ng-model="content"></textarea>
+              <label class="mdl-textfield__label" for="sample5">Content</label>
+            </div>
+        </p>
+
+        <p>
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" ng-click="save()">
+                Save
+            </button>
+        </p>
+
+    </form>
+</div>

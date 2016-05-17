@@ -8,7 +8,7 @@
  * Controller of the adminitApp
  */
 angular.module('adminitApp')
-    .controller('MainCtrl', function ($scope, $http) {
+    .controller('MainCtrl', ['$scope', '$http', '$location', function ($scope, $http, $location) {
         $scope.cards = [];
 
         $http.get("http://api.adminit.ml/cards")
@@ -29,4 +29,8 @@ angular.module('adminitApp')
             });
         };
 
-    });
+        $scope.add = function() {
+            $location.path('/add');
+        }
+
+    }]);
